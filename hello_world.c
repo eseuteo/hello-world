@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main(void)
+int main(int i, char *array[])
 {
-  printf("Hello Sentret");
+  printf("Hello %s", array[0]);
   return 0;
 }
